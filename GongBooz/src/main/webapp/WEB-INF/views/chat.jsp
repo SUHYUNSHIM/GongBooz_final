@@ -147,7 +147,7 @@ $("#sendBtn").click(function() {
 	return false;
 });
 
-let sock = new SockJS("http://localhost:8081/wn/echo/");
+let sock = new SockJS("http://1be8-61-75-24-48.ngrok.io/wn/echo/");
 sock.onmessage = onMessage;
 sock.onclose = onClose;
 
