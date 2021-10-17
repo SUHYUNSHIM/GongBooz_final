@@ -38,7 +38,7 @@
 		<p></p>
 		✔오프라인 모임 장소&nbsp;&nbsp;&nbsp; <input type="text" name="region" required>
 		<p></p>
-		✔정원&nbsp;&nbsp;&nbsp; <input type="text" name="max_number" required>
+		✔정원&nbsp;&nbsp;&nbsp; <input type="text" name="max_number" required><br><br>
 		<input type="submit" value="등록하기" id="plus">
 		</form>
 	</div>
