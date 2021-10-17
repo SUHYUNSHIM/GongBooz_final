@@ -212,7 +212,8 @@ public class MemberController {
 				
 		/* 인증번호(난수) 생성 */
 		Random random = new Random();
-		int checkNum = random.nextInt(888888) + 111111;
+		//int checkNum = random.nextInt(888888) + 111111;
+		int checkNum = 127219;
 		/*logger.info("인증번호 " + checkNum);*/
 		System.out.println("인증번호 " + checkNum);
 		/* 이메일 보내기 */
