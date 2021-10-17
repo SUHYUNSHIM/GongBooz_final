@@ -81,7 +81,16 @@ h3 {
 	background-color:#E0E0E0; 
 	border-color: #9E9E9E;
 	border-radius: 5px;
-	margin-left: 150px;
+	/* margin-left: 150px; */
+	font-size: 20px;
+	margin-top: 30px;
+	transition-duration: 0.4s;
+}
+#back{
+	background-color:#E0E0E0; 
+	border-color: #9E9E9E;
+	border-radius: 5px;
+	margin-left: 300px;
 	font-size: 20px;
 	margin-top: 30px;
 	transition-duration: 0.4s;
@@ -127,7 +136,7 @@ h3 {
 	opacity:1
 }
 
-#plus:hover{
+#plus:hover {
 	background: skyblue;
 	color:white;
 }

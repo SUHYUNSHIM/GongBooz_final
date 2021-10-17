@@ -53,10 +53,14 @@
 		<form id="button" action="studyRoom.do" method="post"> 
 		<a href="studyRoom.do">
 		<!-- <form action="studyRoom.do" method="post"> -->
-		<input type="submit" value="참여하기" id="plus"> <!--id가 plus인 버튼의 css가 만들어져있다.  -->
+		<input type="submit" value="참여하기" id="plus" style="margin-left:100px;"> <!--id가 plus인 버튼의 css가 만들어져있다.  -->
 		<input type="hidden" value="${study_name}" name="study_name">
 		</a>
 		</form>
+		
+		<form action="studyAll.do" method="post">			
+			<input type="submit" value="돌아가기" id="plus" style="margin-left:625px; ">
+		</form>	
 		<%-- </form>  --%>
 		
 	</div>

@@ -216,7 +216,7 @@ public class MemberController {
 		/*logger.info("인증번호 " + checkNum);*/
 		System.out.println("인증번호 " + checkNum);
 		/* 이메일 보내기 */
-		String setFrom = "minhehot@gmail.com";
+		String setFrom = "lisa9963suhyun@gmail.com"; ///////////////////////////////////자신의 이메일 입력
 		String toMail = email;
 		String title = "회원가입 인증 이메일 입니다.";
 		String content = 
@@ -288,7 +288,7 @@ public class MemberController {
 			msg += member.getUserpass() + "</p></div>";
 			// 받는 사람 E-Mail 주소
 			String mail = member.getMembermail();
-			String setFrom = "minhehot@gmail.com";
+			String setFrom = "lisa9963suhyun@gmail.com"; ////////////////////////자신의 이메일 입력
 			// 비밀번호 변경 메일 발송
 			//send_mail(member, "find_pw");
 			
