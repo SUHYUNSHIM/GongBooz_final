@@ -1,0 +1,4 @@
+우선 GongBooz_Table.txt에 적힌 그대로 테이블 생성을 하고 commit해 주세요.
+root-context.xml과 MemberController.java 파일에 회원 가입 시 인증 메일을 받을 이메일 주소와 비밀번호를 입력해 주세요.
+chat.jsp의 SockJs 객체 생성 시 안의 param 값 url을 localhost:포트번호 에서 ngrok url 혹은 채팅서버의 url로 바꿔주세요.
+gbMain.jsp를 실행하면 메인 화면이 로드됩니다.

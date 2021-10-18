@@ -1,0 +1,24 @@
+<ngrok 설치 및 사용하기 -간단 테스트시 >
+
+
+-. ngrok.com/download로 가서 윈도우용 다운
+-. 압축풀고 더블클릭 후 나오는 도스화면에 ngrok http 사용할포트번호를 입력
+(예) ngrok http 8081
+(로그인 없이 무료사용시 약 2시간정도 session유지-이후 다시 ngrok 가동해야 ) 
+
+-. 나오는 주소중 forwaring주소 앞부분을 긁어서 사용하면 외부접속가능 
+
+예) 포워딩 주소가 https://1366-210-11-24-17.ngrok.io 로 나왔고 
+원래 내주소가 다음이라면 
+http://localhost:8081/AAAAAAAAA/NewFile.html
+
+대신
+https://1366-210-11-24-17.ngrok.io/AAAAAAAAA/NewFile.html 를 외부에서 입력하면 
+원격으로 내주소를 사용가능 
+
+
+-. 사용후에는 반드시 도스화면 닫음 
+(물론 다시 접속시 접속주소는 변경됨)
+
+
+http://2659-61-75-24-48.ngrok.io/wn/gbMain.jsp 이런 방식
